@@ -31,7 +31,27 @@ gap: 65px;
       padding:8px 18px;
       margin: auto;
       border: none;
+      border-radius: 20px;
 background-color: linear-gradient(to right, #ff7ac6, #a36bff);
 color: white;
-
+cursor: pointer;
+}
+.hero{
+      display: flex;
+      align-items: center;
+justify-content: space-between;
+      padding: 20px 80px;
+}
+.line1{
+      font-size: 45px;
+      font-weight: bolder;
+}
+.line2{
+      font-size: 35px;
+      font-weight: bolder;
+}
+.line3,
+.line4{
+    font-size: 45px;
+      font-weight: bolder;    
 }
