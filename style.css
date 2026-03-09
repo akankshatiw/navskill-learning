@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#ffffff;
+}
+.header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 80px;
+}
+.logo{
+      width: 120px;
+}
+.navigation ul{
+      list-style: none;
+display: flex;
+gap: 65px;
+
+}
+.navigation a{
+    text-decoration:none;
+    color:black;
+    font-weight:500;
+}
+.signin-btn{
+      padding:8px 18px;
+      margin: auto;
+      border: none;
+background-color: linear-gradient(to right, #ff7ac6, #a36bff);
+color: white;
+
+}
