@@ -17,7 +17,7 @@ body {
 }
 
 .logo {
-      width: 170px;
+      width: 180px;
 }
 
 .navigation ul {
@@ -33,12 +33,17 @@ body {
       font-weight: 500;
 }
 
+.navigation  a:hover{
+      color:#ff7ac6;
+
+}
+
 .signin_btn {
       width:90px;
       height:30px;
       padding: 8px 18px;
       border: none;
-      border-radius: 20px;
+      border-radius: 5px;
       background: linear-gradient(to right, #ff7ac6, #a36bff);
       color: white;
       cursor: pointer;
@@ -49,6 +54,13 @@ body {
       align-items: center;
       justify-content: space-between;
       padding: 20px 80px;
+}
+.discription{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+    max-width: 500px;
+    margin-bottom: 20px;
 }
 
 .line1 {
@@ -73,14 +85,23 @@ body {
 .line4{
       margin-left: 170px;
 }
-.navigation  a:hover{
-      color:#ff7ac6;
 
+
+.footer img{
+    width: 120px;
+    height: auto;
 }
-.footer{
+.footer ul{
       display: flex;
-      background-color: #a36bff;
+      background-color: white;
+      justify-content: space-around;
+      list-style:none ;
+      align-items: center;
+      padding: 20px;
+      
 }
+
+
 .main_student_img{
       height: 550px;
 }
@@ -89,7 +110,7 @@ body {
       height:35px;
       padding: 8px 18px;
       border: none;
-      border-radius: 20px;
+      border-radius: 5px;
       background: linear-gradient(to right, #ff7ac6, #a36bff);
       color:black;
       cursor: pointer;  
@@ -98,12 +119,12 @@ body {
     width:140px;
       height:35px;
       padding: 8px 18px;
-      border: 20px;;
-      border-color: #ff7ac6;
+      border: 2px solid #ff7ac6;
       border-radius: 5px;
-      background: white
+      background: white;
+      margin-left: 20px;
       color: black;
-      cursor: pointer;    
+      cursor: pointer;
 }
 .trynow_btn:hover{
       background:linear-gradient(to right, #ff7ac6, #a36bff) ;
