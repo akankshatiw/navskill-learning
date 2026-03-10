@@ -1,57 +1,113 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:#ffffff;
+
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #ffffff;
 }
-.header{
+
+.header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 20px 80px;
 }
-.logo{
-      width: 120px;
+
+.logo {
+      width: 170px;
 }
-.navigation ul{
+
+.navigation ul {
       list-style: none;
-display: flex;
-gap: 65px;
+      display: flex;
+      gap: 65px;
 
 }
-.navigation a{
-    text-decoration:none;
-    color:black;
-    font-weight:500;
+
+.navigation a {
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
 }
-.signin-btn{
-      padding:8px 18px;
-      margin: auto;
+
+.signin_btn {
+      width:90px;
+      height:30px;
+      padding: 8px 18px;
       border: none;
       border-radius: 20px;
-background-color: linear-gradient(to right, #ff7ac6, #a36bff);
-color: white;
-cursor: pointer;
+      background: linear-gradient(to right, #ff7ac6, #a36bff);
+      color: white;
+      cursor: pointer;
 }
-.hero{
+
+.hero {
       display: flex;
       align-items: center;
-justify-content: space-between;
+      justify-content: space-between;
       padding: 20px 80px;
 }
-.line1{
+
+.line1 {
       font-size: 45px;
       font-weight: bolder;
 }
-.line2{
+
+.line2 {
       font-size: 35px;
       font-weight: bolder;
+      
 }
+
 .line3,
+.line4 {
+      font-size: 45px;
+      font-weight: bolder;
+}
+.line3{
+      margin-left:50px;
+}
 .line4{
-    font-size: 45px;
-      font-weight: bolder;    
+      margin-left: 170px;
+}
+.navigation  a:hover{
+      color:#ff7ac6;
+
+}
+.footer{
+      display: flex;
+      background-color: #a36bff;
+}
+.main_student_img{
+      height: 550px;
+}
+.praposal_btn{
+    width:140px;
+      height:35px;
+      padding: 8px 18px;
+      border: none;
+      border-radius: 20px;
+      background: linear-gradient(to right, #ff7ac6, #a36bff);
+      color:black;
+      cursor: pointer;  
+}
+.trynow_btn{
+    width:140px;
+      height:35px;
+      padding: 8px 18px;
+      border: 20px;;
+      border-color: #ff7ac6;
+      border-radius: 5px;
+      background: white
+      color: black;
+      cursor: pointer;    
+}
+.trynow_btn:hover{
+      background:linear-gradient(to right, #ff7ac6, #a36bff) ;
+}
+.praposal_btn:hover{
+      background: white;
 }
