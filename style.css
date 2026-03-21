@@ -59,18 +59,21 @@ body {
     font-size: 16px;
     line-height: 1.7;
     color: #555;
-    max-width: 500px;
+    max-width: 700px;
     margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 .line1 {
       font-size: 45px;
       font-weight: bolder;
+      margin-left: 10px;
 }
 
 .line2 {
       font-size: 35px;
       font-weight: bolder;
+      margin-left: 30px;
       
 }
 
@@ -80,10 +83,10 @@ body {
       font-weight: bolder;
 }
 .line3{
-      margin-left:50px;
+      margin-left:65px;
 }
 .line4{
-      margin-left: 170px;
+      margin-left: 190px;
 }
 
 
@@ -113,7 +116,9 @@ body {
       border-radius: 5px;
       background: linear-gradient(to right, #ff7ac6, #a36bff);
       color:black;
-      cursor: pointer;  
+      cursor: pointer;
+      margin-left: 25px;  
+      
 }
 .trynow_btn{
     width:140px;
@@ -122,7 +127,7 @@ body {
       border: 2px solid #ff7ac6;
       border-radius: 5px;
       background: white;
-      margin-left: 20px;
+      margin-left: 40px;
       color: black;
       cursor: pointer;
 }
@@ -131,4 +136,61 @@ body {
 }
 .praposal_btn:hover{
       background: white;
+}
+.search_courses{
+    padding: 80px 20px;
+    text-align: center;
+    background: #fff;
+}
+
+.search_coursesh2{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.search_bar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.search_bar input{
+    width: 300px;
+    padding: 10px;
+}
+
+.search_bar button{
+    padding: 10px 20px;
+    background: purple;
+    color: white;
+    border: none;
+}
+
+.second_page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.images_page2{
+    display: grid;
+    grid-template-columns: repeat(2, 120px);
+    gap: 10px;
+}
+
+.images_page2 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+}
+
+.text_page2{
+    max-width: 400px;
+    text-align: left;
+}
+
+.text_page2 span{
+    color: purple;
 }
