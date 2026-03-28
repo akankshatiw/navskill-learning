@@ -1,30 +1,38 @@
-let signinBtn = document.querySelector(".signin_btn");
-let proposalBtn = document.querySelector(".praposal_btn");
-let tryBtn = document.querySelector(".trynow_btn");
-
-signinBtn.addEventListener("click", function () {
-    alert("Sign-in page coming soon!");
-});
-
-proposalBtn.addEventListener("click", function () {
-    alert("We will contact you soon!");
-});
-
-tryBtn.addEventListener("click", function () {
-    alert("Welcome! Let's explore 🚀");
-});
-let searchBtn = document.querySelector(".search_bar button");
+let signin = document.querySelector(".signin_btn");
+let praposalbtn = document.querySelector(".praposal_btn");
+let trynow = document.querySelector(".trynow_btn");
+signin.addEventListener("click", function (){
+      alert("button clicked");
+})
+praposalbtn.addEventListener("click", function(){
+      alert("praposal page loading");
+})
+trynow.addEventListener("click",function(){
+      alert("try now page is loading");
+})
 let searchInput = document.querySelector(".search_input");
-
-searchBtn.addEventListener("click", function () {
-    let value = searchInput.value.trim();
-
-    if (value === "") {
-        alert("Please enter something!");
-    } else {
-        alert("Searching for: " + value);
-    }
+let searchbtn =  document.querySelector(".search-btn");
+searchbtn.addEventListener("click", function(){
+       let value = searchInput.value.trim();
+      if( value === ""){
+            alert("inappropriate input");
+      }
+      else{
+            alert("you searched for " + value);
+      }
+})
+let navlinks = document.querySelectorAll(".navigation");
+navlinks.forEach(function(link){
+link.addEventListener("click",function(){
+      alert("this section is loading soon");
+})
 });
-searchInput.addEventListener("input", function () {
-    console.log("Typing:", searchInput.value);
+let mainImage = document.querySelector(".main_student_img");
+
+mainImage.addEventListener("mouseover", function () {
+    mainImage.style.transform = "scale(1.05)";
+});
+
+mainImage.addEventListener("mouseout", function () {
+    mainImage.style.transform = "scale(1)";
 });
