@@ -194,3 +194,15 @@ body {
 .text_page2 span{
     color: purple;
 }
+#results {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.course-card {
+    padding: 10px;
+    margin: 10px auto;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
